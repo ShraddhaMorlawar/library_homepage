@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkred;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 12px;
+}
+
+ul li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: rgb(243, 157, 157);
+}
+
+.head1 img {
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.mainContainer {
+    background-image: url('library.jpeg');
+    background-size: 100vw 97vh;
+    background-repeat: no-repeat;
+    height: 93vh;
+}
+
+.name {
+    color: white;
+    font-size: 10vh;
+    position: relative;
+    top: 10vh;
+    padding: 0 10vw;
+}
+
+.tag {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 12vh;
+    padding: 0 12vw;
+}
+
+footer {
+    height: 10vh;
+}
+
+.foot {
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width : 500px) {
+    .name {
+        font-size: 6vh;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .tag {
+        font-size: 12px;
+        padding: 0 10vw;
+    }
+}
+
+ol {
+    padding: 10px;
+}
+
+.tc {
+    padding: 10px;
+}
+
+.member {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding: 0 5px;
+}
+
+.box {
+    background-color: rgb(246, 186, 186);
+    border: 2px solid black;
+}
+
+.display {
+    padding: 10px;
+}
+
+/* Contact */
+.contact_head {
+    height: 20vh;
+    background-color: brown;
+
+}
+
+.Contact_head1 {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.Contact_head2 {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+input {
+    height: 35px;
+    width: 40vw;
+}
+
+#btn {
+    position: relative;
+    top: 30px;
+    left: 8px;
+    background-color: brown;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
+
+.pp {
+    position: relative;
+    top: 40px;
+
+}
+
+.contact_container {
+    display: grid;
+    grid-gap: 10px 50px;
+    position: relative;
+    top: 20px;
+}
+
+lable {
+    font-size: 20px;
+}
+
+@media screen and (max-width : 500px) {
+    input {
+        height: 35px;
+    }
+}
+
+/* about */
+
+.about_head {
+    height: auto;
+    color: black;
+    font-size: 72px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.about_head2 img {
+    height: 140px;
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.about_head3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about_flex1 {
+    width: 300px;
+    height: 100px;
+    border: 3px solid black;
+    font-size: 25px;
+}
+
+.about_footer {
+    height: 12vh;
+    text-align: center;
+}
+
+#mainbtn1 a,
+#mainbtn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#mainbtn1,
+#mainbtn2 {
+    width: 70px;
+    height: 30px;
+    background-color: brown;
+    border: 2px solid black;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 20vh;
+    left: 30vh;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+#mainbtn1:hover {
+    background-color: rgb(226, 83, 83);
+}
+
+#mainbtn2:hover {
+    background-color: rgb(226, 83, 83);
+}
+
+@media screen and (max-width : 500px) {
+
+    #mainbtn1,
+    #mainbtn2 {
+        width: 70px;
+        height: 30px;
+        background-color: brown;
+        border: 2px solid black;
+        color: white;
+        font-size: 18px;
+        position: relative;
+        top: 20vh;
+        left: 10vh;
+        margin: 12px;
+    }
+}
+
+/* signin page */
+.sign_bg {
+    position: fixed;
+    background-color: brown;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signin {
+    background-color: white;
+    width: 35vw;
+    height: 90vh;
+    position: relative;
+    top: 5vh;
+    left: 32.5vw;
+    border-radius: 4px;
+}
+
+.signin_det {
+    position: relative;
+    left: 3vw;
+}
+
+h1 {
+    text-align: center;
+    padding: 2vh;
+}
+
+input {
+    width: 28vw;
+    border-style: none none groove none;
+}
+
+h5 {
+    text-align: right;
+    padding: 0 7vh;
+}
+
+h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+#sign_btn {
+    position: relative;
+    left: 6vh;
+    width: 28vw;
+    border: 2px solid black;
+    height: 5vh;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: brown;
+    color: white;
+}
+
+#sign_btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#sign_btn:hover {
+    background-color: rgb(226, 83, 83);
+}
+
+.other_info p {
+    position: relative;
+    left: 13vw;
+}
+
+.logo {
+    display: flex;
+    column-gap: 20px;
+    position: relative;
+    left: 11.5vw;
+}
+
+#Layer_1 {
+    height: 30px;
+    width: 30px;
+}
+
+.sign_foot1 {
+    position: relative;
+    left: 13vw;
+    color: gray;
+}
+
+.sign_foot2 {
+    position: relative;
+    left: 14.5vw;
+}
+
+.sign_foot2 a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width : 800px) {
+    .signin {
+        background-color: white;
+        width: 75vw;
+        height: 90vh;
+        position: fixed;
+        top: 5vh;
+        left: 68px;
+        border-radius: 4px;
+    }
+
+    .signin_det {
+        position: relative;
+        left: 7vw;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 2vh;
+    }
+
+    input {
+        width: 55vw;
+        border-style: none none groove none;
+    }
+
+    h5 {
+        text-align: right;
+        padding: 0 11vw;
+    }
+
+    #sign_btn {
+        position: relative;
+        left: 5vh;
+        width: 55vw;
+        border: 2px solid black;
+        height: 5vh;
+        font-size: 17px;
+        padding: 5px;
+        border-radius: 30px;
+        background-color: brown;
+        color: white;
+    }
+
+    .other_info p {
+        position: fixed;
+        left: 40vw;
+    }
+
+    .logo {
+        display: flex;
+        column-gap: 20px;
+        position: fixed;
+        left: 35vw;
+    }
+
+    .sign_foot1 {
+        position: fixed;
+        left: 40vw;
+        color: gray;
+    }
+
+    .sign_foot2 {
+        position: fixed;
+        left: 46vw;
+        top: 85vh;
+    }
+}
